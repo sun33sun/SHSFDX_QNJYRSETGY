@@ -1,0 +1,20 @@
+{
+    "Id": "",
+    "Version": "v1.0.72",
+    "Type": 0,
+    "AccessRight": 0,
+    "DownloadUrl": "",
+    "InstallPath": "Assets/QFramework/Framework/",
+    "IncludeFileOrFolders": [
+        "Assets/QFramework/Framework",
+        "Assets/QFramework/Toolkits"
+    ],
+    "DocUrl": "https://liangxiegame.com",
+    "Readme": {
+        "version": "v1.0.72",
+        "content": "一部分试验性的代码剔除",
+        "author": "liangxie",
+        "date": "2023 年 07 月 12 日 12:48",
+        "PackageId": ""
+    }
+}

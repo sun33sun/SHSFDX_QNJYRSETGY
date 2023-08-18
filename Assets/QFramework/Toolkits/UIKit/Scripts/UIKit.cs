@@ -85,9 +85,9 @@ yield return UIKit.OpenPanelAsync<UIHomePanel>();
 UIKit.OpenPanelAsync<UIHomePanel>().ToAction().Start(this);
 ")]
 #endif
-
-        public static IEnumerator PreLoadPanelAsync<T>(UILevel canvasLevel = UILevel.Common, IUIData uiData = null, string assetBundleName = null,
-        string prefabName = null) where T : UIPanel
+        
+        public static IEnumerator PreLoadPanelAsync<T>(UILevel canvasLevel = UILevel.Common,IUIData uiData = null, string assetBundleName = null,
+            string prefabName = null) where T : UIPanel
         {
             var panelSearchKeys = PanelSearchKeys.Allocate();
             panelSearchKeys.OpenType = PanelOpenType.Single;
@@ -107,6 +107,7 @@ UIKit.OpenPanelAsync<UIHomePanel>().ToAction().Start(this);
             panelSearchKeys.Recycle2Cache();
         }
 
+        
         public static IEnumerator OpenPanelAsync<T>(UILevel canvasLevel = UILevel.Common, IUIData uiData = null,
             string assetBundleName = null,
             string prefabName = null) where T : UIPanel

@@ -5,28 +5,28 @@ using QFramework;
 
 namespace SHSFDX_QNJYRSETGY
 {
-	// Generate Id:dc11e0f8-4901-4858-82be-69d469646fa9
+	// Generate Id:ffa01e4f-d43f-4632-b000-74048100f906
 	public partial class MaskPanel
 	{
 		public const string Name = "MaskPanel";
 		
 		[SerializeField]
-		public TMPro.TextMeshProUGUI tmpContent_ID;
-		[SerializeField]
-		public TMPro.TextMeshProUGUI tmpContent_ASD;
-		[SerializeField]
 		public TMPro.TextMeshProUGUI tmpHead_ID;
 		[SerializeField]
+		public TMPro.TextMeshProUGUI tmpContent_ID;
+		[SerializeField]
 		public TMPro.TextMeshProUGUI tmpHead_ASD;
+		[SerializeField]
+		public TMPro.TextMeshProUGUI tmpContent_ASD;
 		
 		private MaskPanelData mPrivateData = null;
 		
 		protected override void ClearUIComponents()
 		{
-			tmpContent_ID = null;
-			tmpContent_ASD = null;
 			tmpHead_ID = null;
+			tmpContent_ID = null;
 			tmpHead_ASD = null;
+			tmpContent_ASD = null;
 			
 			mData = null;
 		}
